@@ -12,13 +12,12 @@ from GraphVis import CreateGraph,DisplayGraph
 
 def main():
     
-    # g=CreateGraph()
-    # g.addNodes()
-    # edge_list = g.addEdges()
+    g=CreateGraph()
+    g.addNodes()
+    edge_list = g.addEdges()
 
-    # d = DisplayGraph(edge_list)
-    # d.showGraph()
-    edge_list = [('S', 'A', 3), ('S', 'B', 4), ('A', 'B', 2), ('B', 'A', 2), ('A', 'D', 4), ('D', 'F', 2), ('F', 'G', 1), ('B', 'C', 5), ('C', 'E', 6)]
+    d = DisplayGraph(edge_list)
+    d.showGraph()
 
 
     while True:
